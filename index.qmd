@@ -11,12 +11,12 @@ author: "Diego Pedraza Barajas 2105940X
 lang: es
 format:
   html: default
-  pdf: default
+  pdf: default 
 ---
 
 ![](logo.png){width=25%}
 
-### [Link de la presenracion](https://github.com/Diegoo777/Basilea/blob/08cc3ca4532fbf826e7e995098c348f1527bed14/presentacion.qmd){target="_blank"}
+### <a href="presentacion.html" target="_blank"> Ver presentacion</a>
 
 ## Introducción 
 
