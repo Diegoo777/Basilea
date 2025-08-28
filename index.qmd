@@ -16,7 +16,7 @@ format:
 
 ![](logo.png){width=25%}
 
-### <a href="presentacion.html" target="_blank"> Ver presentacion</a>
+### <a href="presentacion.html"target="_blank"> Ver presentacion</a>
 
 ## Introducción 
 
