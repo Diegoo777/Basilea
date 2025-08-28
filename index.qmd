@@ -14,6 +14,8 @@ format:
   pdf: default
 ---
 
+![](logo.png){width=25%}
+
 ## Introducción 
 
 La administración de riesgos es el conjunto de diversos procesos que se usan para analizar, identificar, evaluar y controlar las posibles consecuencias de los riesgos a los que se exponen las empresas y así poder reducirlos, evitarlos o transferirlos. 
