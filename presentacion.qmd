@@ -1,0 +1,154 @@
+---
+title: "Origen y Desarrollo de la Administración de Riesgos"
+subtitle: "Tema 4: CreditMetrics y Basilea II"
+author: "Abigail Sampedro Gutierrez, Diego Pedraza Barajas, Ana Berenice Garcia Hernandez"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    css: styles.css
+    menu:
+      title: "Índice"
+      path: "#"
+      sections:
+        - title: "Introducción"
+          path: "#/intro"
+        - title: "Antecedentes Históricos"
+          path: "#/antecedentes"
+        - title: "CreditMetrics"
+          path: "#/creditmetrics"
+        - title: "Ventajas de CreditMetrics"
+          path: "#/ventajas"
+        - title: "Basilea y Basilea II"
+          path: "#/basilea"
+        - title: "Caso Práctico"
+          path: "#/caso-practico"
+        - title: "Conclusiones"
+          path: "#/conclusiones"
+---
+
+## Introducción {#intro}
+
+- La administración de riesgos es el conjunto de procesos que se usan para analizar, identificar, evaluar y controlar las posibles consecuencias de los riesgos a los que se exponen las empresas y así poder reducirlos, evitarlos o transferirlos.
+
+---
+
+## Antecedentes Históricos {#antecedentes}
+
+- **Origen:** La gestión de riesgos se inicia en la antigüedad, con comerciantes usando **contratos de seguro** para proteger mercancías durante los viajes marítimos con el fin de mitigar las pérdidas.
+- **Siglo XVI:** Primeros estudios de probabilidad aplicados a juegos de azar.
+- **1950:** Se funda en EE.UU. la **ASIM** (American Society of Insurance Management) una asociación profesional dedicada a promover la práctica de la gestión de riesgo.
+- **1959:** **Harry Markowitz** usa la gestión de riesgos para su teoría de portafolios.
+
+##
+- **En México:**
+  - 1972: Inicia la aplicación de la administración de riesgos con contacto con la ASIM.
+  - 1973: Se funda la **AMARAC** (Asociación Mexicana de Administradores de Riesgos, A.C.).
+- **1974:** Nace el **Comité de Basilea** tras la quiebra de bancos alemanes y estadounidenses, con el fin de fortalecer la supervisión bancaria.
+- **1988:** Se publica el **Acuerdo de Capital de Basilea I**, que establece un requerimiento de capital del 8% de los activos ponderados por riesgo.
+
+---
+
+## CreditMetrics {#creditmetrics}
+
+- Creado por **J.P. Morgan** en 1997 para medir el riesgo de crédito.
+- Surgió por la falta de métodos cuantitativos para gestionar el riesgo de crédito, expuesta por la deuda latinoamericana de los 80.
+- Busca medir la pérdida potencial si los deudores caen en incumplimiento o cambian su calificación crediticia.
+- A diferencia de modelos tradicionales, considera las **migraciones de calificación**.
+- La **matriz de probabilidades de transición**, que muestra la probabilidad de que un emisor cambie de categoría en un año.
+
+##
+
+| % | AAA | AA | A | BBB | BB | B | CCC | D |
+|---|---|---|---|---|---|---|---|---|
+| AAA | 91.35 | 8.00 | 0.70 | 0.10 | 0.05 | 0.01 | 0.01 | 0.01 |
+| AA | 0.70 | 91.03 | 7.47 | 0.60 | 0.10 | 0.07 | 0.02 | 0.01 |
+| A | 0.10 | 2.34 | 91.57 | 5.08 | 0.61 | 0.26 | 0.01 | 0.05 |
+| BBB | 0.00 | 0.11 | 5.28 | 86.71 | 6.12 | 1.27 | 0.23 | 0.28 |
+| BB | 0.01 | 0.11 | 0.55 | 7.77 | 81.77 | 7.95 | 0.85 | 1.00 |
+| B | 0.00 | 0.05 | 0.25 | 0.45 | 7.00 | 83.50 | 3.75 | 5.00 |
+| CCC | 0.00 | 0.01 | 0.10 | 0.30 | 2.59 | 12.00 | 65.00 | 20.00 |
+| D | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 100.00 |
+<br>
+
+---
+
+## Ventajas de Usar CreditMetrics {#ventajas}
+
+- Permite anticipar pérdidas con base en datos estadísticos.
+- Mide cómo un cambio en la calificación de un emisor afecta el riesgo global de una cartera diversificada.
+- Ayuda a demostrar un perfil de bajo riesgo, lo que puede facilitar un financiamiento.
+- Satisface las exigencias de **Basilea II y III**.
+- Ayuda a las empresas anticipar escenarios desfavorables y tomar medidas para prevenir riesgos.
+
+##
+- Establece la pérdida máxima que puede tener una inversión.
+- Ayuda a calcular la probabilidad de migración en la calidad de un crédito.
+- Calcula la calidad crediticia, calificación crediticia y probabilidad de incumplimiento.
+
+---
+
+## Basilea {#basilea}
+
+- **Comité de Basilea:** Se contituyo en 1974 por los bancos centrales del G-10 para establecer estándares de regulación bancaria.
+- **Basilea I (1988):**
+  - Fue bastante simple y no diferenciaba entre prestatarios solventes y riesgosos.
+  - Establecía un requerimiento de capital del **8%** de los activos ponderados por riesgo.
+  
+##
+- **Basilea II (2004):**
+  - Se inicio por defectos y deficiencias de Basilea I y la evolución de los mercados financieros.
+  - Se basa en **tres pilares fundamentales** para mantener la estabilidad bancaria:
+    1. **Pilar 1: Requisitos Mínimos de Capital:** Indica cómo calcular el capital para cubrir los riesgos de crédito, mercado y operativo.
+    2. **Pilar 2: Proceso de Examen de Supervisión:** Determina la gestión de riesgos de los bancos y sus procesos internos.
+
+##
+  3. **Pilar 3: Disciplina de Mercado:** Promueve la transparencia y pide la divulgación de información sobre la suficiencia de capital y la exposición a riesgos.
+
+---
+
+## Caso Práctico {#caso-practico}
+
+- Un banco tiene un bono corporativo con grado medio de inversión.
+- **Datos:** Valor nominal de 1,000,000 USD, con vencimiento a 1 año, rendimiento esperado si se mantiene la calificación: 5%.
+- **Matriz de Transición:**
+
+| % | AAA | AA | A | BBB | BB | B | Default |
+|---|---|---|---|---|---|---|---|
+| BBB | 2% | 5% | 10% | 75% | 5% | 2% | 1% |
+
+<br>
+
+##
+- **Valores de Mercado según Calificación:**
+
+| Calificación | Valor del Bono (USD) |
+|---|---|
+| AAA | 1,030,000 |
+| AA | 1,020,000 |
+| A | 1,010,000 |
+| BBB | 1,000,000 |
+| BB | 950,000 |
+| B | 900,000 |
+| Default | 400,000 |
+
+<br>
+
+##
+- **Cálculo del Valor Esperado:**
+  - `Suma de (Probabilidad de migración * Valor de mercado) `
+  - `Valor Esperado = 992,100 USD`
+- **Pérdida Esperada:**
+  - `Valor Inicial - Valor Esperado = 1,000,000 - 992,100 = 7,900 USD`
+- **Conclusión:** La pérdida esperada por riesgo de migración crediticia es de **7,900 USD**.
+
+---
+
+## Conclusiones Generales {#conclusiones}
+
+- La administración de riesgos ha cambiado desde un enfoque instintivo hasta una práctica mas técnica y regulada.
+- Algunos modelos como **CreditMetrics** ayudaron a las instituciones calcular el riesgo de crédito y tomar mejores decisiones para prevenir perdidas.
+- **Basilea II** y sus pilares incluyeron estas metodologías en un marco regulatorio global, lo que mejoro la estabilidad del sistema financiero.
+
+##
+- La conexión entre el desarrollo financiero (como CreditMetrics) y la regulación (como Basilea) fue importante para mantener una mejor estabilidad en el mercado.
